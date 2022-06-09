@@ -1,0 +1,94 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.button {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+
+  transition: all 0.375s ease-in-out;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.image-container {
+  margin-bottom: 1.5rem;
+  max-width: 55.6rem;
+  max-height: 37rem;
+}
+
+.image {
+  display: block;
+  border-radius: 1.5rem;
+  width: 100%;
+  max-width: 55.6rem;
+  max-height: 37rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.scores-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 1.5rem auto;
+  gap: 5rem;
+}
+
+.scores-container span {
+  font-weight: 600;
+}
+
+.diets-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.diet {
+  color: #fff;
+  background-color: rgb(217, 119, 6);
+  text-align: center;
+  padding: 0 0.8rem;
+  border-radius: 9999px;
+}
+
+.summary-container {
+  margin-bottom: 1.5rem;
+  align-self: flex-start;
+}
+
+.instructions-container {
+  align-self: flex-start;
+}
+
+.summary-container h2,
+.instructions-container h2 {
+  font-weight: 600;
+  font-size: 1.9rem;
+}
+
+.summary-container p,
+.instruction-container p {
+  text-align: justify;
+}

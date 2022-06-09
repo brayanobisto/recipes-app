@@ -1,0 +1,36 @@
+.paginator-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.pages-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.page {
+  border: 0.1rem solid #000;
+  height: 3rem;
+  width: 3rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+
+.active-page {
+  border: 0.1rem solid #000;
+  height: 3rem;
+  width: 3rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #000;
+}

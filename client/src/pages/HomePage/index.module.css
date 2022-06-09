@@ -1,0 +1,15 @@
+.home-container {
+  padding: 1rem;
+}
+
+.bars-container {
+  /* 'flex flex-wrap justify-between items-center gap-[1rem] max-w-[120rem] mx-auto p-8' */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2rem;
+}

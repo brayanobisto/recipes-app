@@ -1,0 +1,61 @@
+.multiselect-container {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.multiselect-container label {
+  display: block;
+  font-weight: 700;
+}
+
+.delete-button {
+  /* 'font-semibold inline-block ml-3 border-l border-white pl-[0.75rem]' */
+  font-weight: 600;
+  display: inline-block;
+  margin-left: 0.75rem;
+  border-left: 1px solid #fff;
+  padding-left: 0.75rem;
+}
+
+.multiselect-container > span {
+  color: rgb(239, 68, 68);
+}
+
+.select {
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  outline: none;
+  color: #fff;
+  background: #000;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.option {
+  font-weight: 600;
+  color: #000;
+  background: #fff;
+}
+
+.option:checked {
+  display: none;
+}
+
+.diets-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.diet {
+  color: white;
+  background-color: rgb(217, 119, 6);
+  padding: 0 0.8rem;
+  border-radius: 9999px;
+  cursor: pointer;
+}
