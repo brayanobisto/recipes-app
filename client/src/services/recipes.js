@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
 dotenv.config()
-const URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:3001/recipes'
+const URL = `${process.env.REACT_APP_BACKEND_URL || 'http://localhost:3001'}/recipes` 
 
 export const getAllRecipes = async () => {
   const response = await fetch(URL)
